@@ -1,0 +1,33 @@
+{
+  "name": "bulma-css",
+  "version": "1.0.0",
+  "description": "A sample site for the bulma-css framework",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sallenmoore/bulma-css.git"
+  },
+  "keywords": [
+    "cssframework"
+  ],
+  "author": "Steven Moore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sallenmoore/bulma-css/issues"
+  },
+  "homepage": "https://github.com/Sallenmoore/bulma-css#readme"
+}
