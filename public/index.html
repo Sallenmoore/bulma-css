@@ -76,22 +76,123 @@
         </section>
         <section class="section has-background-light">
             <div class="container">
-                <p class="has-text-centered">
-                    Sample node/express website with Bulma!
-                </p>
+                <h2 class="has-text-centered title is-1">
+                    Build the site with columns
+                </h2>
                 <div class="columns">
                     <div class="column">
-                        <p class="has-background-success has-text-centered">Column 1</p>
+                        <p class="has-background-success has-text-centered subtitle is-1">Column 1</p>
                     </div>
                     <div class="column">
-                        <p class="has-background-warning has-text-centered">Column 2</p>
+                        <p class="has-background-warning has-text-centered subtitle is-2">Column 2</p>
                     </div>
                     <div class="column">
-                        <p class="has-background-danger has-text-centered">Column 3</p>
+                        <p class="has-background-danger has-text-centered subtitle is-3">Column 3</p>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="section has-background-warning">
+            <div class="container">
+                <h2 class="has-text-centered title is-2">
+                    Build the site with tiles
+                </h2>
+                <div class="tile is-ancestor">
+                    <div class="tile is-vertical is-8">
+                        <div class="tile">
+                            <div class="tile is-parent is-vertical">
+                                <article class="tile is-child notification is-primary">
+                                    <p class="title">Vertical...</p>
+                                    <p class="subtitle">Top tile</p>
+                                </article>
+                                <article class="tile is-child notification is-link">
+                                    <p class="title">...tiles</p>
+                                    <p class="subtitle">Bottom tile</p>
+                                </article>
+                            </div>
+                            <div class="tile is-parent">
+                                <article class="tile is-child notification is-info">
+                                    <p class="title">Middle tile</p>
+                                    <p class="subtitle">With an image</p>
+                                    <figure class="image is-4by3">
+                                        <img src="https://bulma.io/images/placeholders/640x480.png">
+                                    </figure3
+                                </article>
+                            </div>
+                        </div>
+                        <div class="tile is-parent">
+                            <article class="tile is-child notification is-danger">
+                                <p class="title">Wide tile</p>
+                                <p class="subtitle">Aligned with the right tile</p>
+                                <div class="content">
+                                    <!-- Content -->
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification is-success">
+                            <div class="content">
+                                <p class="title">Tall tile</p>
+                                <p class="subtitle">With even more content</p>
+                                <div class="content">
+                                    <!-- Content -->
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section has-background-info">
+            <div class="container">
+                <h2 class="has-text-centered title is-3">
+                    Look! A form!
+                </h2>
+                <form>
+                    <div class="field">
+                        <label class="label is-medium">Input</label>
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input is-medium" type="email" placeholder="Normal Size">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            <span class="icon is-small is-right">
+                                <i class="fas fa-check fa-xs"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="field has-addons">
+                        <div class="control is-expanded">
+                            <input class="input" type="text" placeholder="Query String">
+                        </div>
+                        <div class="control">
+                            <a class="button is-link">
+                                Search
+                            </a>
+                        </div>
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                            <label class="label">Editable Text Data</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <p class="control">
+                                    <input class="input is-static" type="text" value="This is very important data">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
         <script src="js/main.js"></script>
     </body>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>Footer text and stuff</p>
+        </div>
+    </footer>
 </html>
